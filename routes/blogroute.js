@@ -3,6 +3,6 @@ const blogapi = require("../data/blogApi")
 
 const blogrouter = express.Router()
 
-blogrouter.route("/blog").get(blogapi)
+blogrouter.route("/blog").get(blogapi.blogNews)
 
 module.exports = blogrouter;
