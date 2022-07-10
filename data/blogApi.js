@@ -471,4 +471,4 @@ const blogapi = (req, res) => {
     ])
 }
 
-module.exports = blogapi
+module.exports = blogapi;
