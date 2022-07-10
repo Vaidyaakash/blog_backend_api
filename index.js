@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express()
 const blogrouter = require("./routes/blogroute");
-const corss1 = require("cors") 
+const cors = require("cors") 
+app.use(cors())
 
 app.use("/main", blogrouter);
-app.use(corss1())
 
 app.listen( process.env.PORT || 4545, () => {
     console.log("app is started");
