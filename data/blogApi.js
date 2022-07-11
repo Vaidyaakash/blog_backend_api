@@ -1,58 +1,7 @@
 const blogapi = (req, res) => {
     res.send([
-        {
-            "title": "Kerala attracts 3.8 mn domestic tourists",
-            "image": "https://www.financialexpress.com/wp-content/uploads/2022/05/1-850.jpg",
-            "description": "Overcoming the grim blow dealt by the COVID-19 pandemic, Kerala Tourism has bounced back clocking 3.8 million domestic tourists in the first quarter of 2022, on footfalls during the corresponding period of 2021, Tourism Minister P A Mohamed Riyas said on Wednesday.",
-            "category": "Tourism",
-            "date": "/December 27, 2021",
-            "id": "0"
-        },
-        {
-            "title": "India's Neeraj Chopra says virus restrictions hit Olympic hopes",
-            "image": "https://exchange4media.gumlet.io/news-photo/114826-neeraj-chopra-122321.jpg?w=400&dpr=2.6",
-            "description": "India's javelin star Neeraj Chopra said Wednesday that the lack of international competition because of coronavirus restrictions has badly hampered preparations for his first Olympic Games. Chopra, a farmer's son from a village outside of Delhi became a track .",
-            "category": "Sports",
-            "date": "/January 27, 2022",
-            "id": "48"
-        },
-        {
-            "title": "Best Tech News Mobile Apps For Android in 2022",
-            "image": "https://i0.wp.com/itechviral.com/wp-content/uploads/2020/08/18-best-technology-apps-for-android-1.png?fit=436%2C333&ssl=1",
-            "description": "Best Tech News Mobile Apps For Android in 2022Just like some browsers on your device will alluse, and also you can easily bookmark your favorite tech news article. These are some of the best Android apps to read tech news articles. Also, I’ll make it clear now on their popularity and user reviews.#1. Google News #2. Flipboard #3. Gadgets 360 #4. CNET #5. TechCrunch #6. Feedly ",
-            "category": "Technology",
-            "date": "/October 27, 2021",
-            "id": "49"
-        },
-        {
-            "title": "Indian gamers in tournament",
-            "category": "Bollywood",
-            "description": "New Delhi, October 27: While the World Esports Cup 2021 (WEC '21) is all set to showcase the best rivalries, star Bollywood actor Tiger Shroff will be cheering the Indian contingent as he announced his support for the Indian team, competing for the title and the enormous prize pool of $100k.",
-            "image": "https://www.mykhel.com/img/2021/10/tigershroffxworldesportscup-1635324090.jpg",
-            "date": "/October 27, 2021",
-            "id": "11"
-        },
-        {
-            "title": "Apple to launch RealityOS for AR/VR",
-            "category": "Technology",
-            "description": "Apple's RealityOS will power the VR headsets and will be in a state to offer a combination of VR and AR experiences, which will help the user to immerse in virtual content along with layering virtual elements over the real-world environments.  ",
-            "image": "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2022/05/vr-headset-freepik-1653918479.jpg",
-            "date": "/January 21, 2022",
-            "id": "111"
-        },
-        {
-            "title": "Conjunctivitis to Dry eye Syndrome",
-            "category": "Health",
-            "description": "In summers, we see a rise in individuals walking to ophthalmologists with a red eye. The scorching sun brings a lot of discomfort to your body in many forms. A few types of issues may be more likely to develop. Here are some of the common problems that your eyes suffer from in the summers.",
-            "image": "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2022/05/eyes-1653924529.jpg",
-            "date": "/May 8, 2022",
-            "id": "1111"
-        },
-
 
         // Bollywood
-
-
         {
             "title": "Virat and Anushka appeal to not click their daughter’s picture",
             "category": "Bollywood",
